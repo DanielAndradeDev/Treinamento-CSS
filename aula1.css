@@ -1,0 +1,22 @@
+p{
+    animation-duration: 4s;
+    animation-name: anime;
+
+}
+@keyframes anime{
+    /* nosso from é o nosso inicio */
+    from {
+        /* margin ele vai iniciar indo para esquerda em 100% */
+        margin-left:100% ;
+        /* width ele vai auementando o tamanho da imagem  */
+        width: 400%;
+    }
+    to{
+        /* aqui ele vai resetar minha animaçao que foi 100% para esquerda  */
+        margin-left: 0%;
+        /* o width ele vai voltar para o tamanho normal  */
+        width: 100%;
+    }
+
+}
+

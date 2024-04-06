@@ -1,0 +1,25 @@
+p{
+    animation-duration: 3s;
+    animation-name: anime;
+ /* animation-iteration-count ele vai fazer a animaçao quantas vezes eu colocar no valor do animation interation count  */
+    animation-iteration-count:infinite ;
+    /* animation-direction uso ele pra definir quantos movimentos eu quero  */
+    animation-direction:alternate ;
+}
+@keyframes anime{
+    from{
+        margin-left: 100%;
+        width: 300%;
+    }
+to{
+    margin-left: 0%;
+    width: 100%;
+    
+}
+}
+
+
+/* o P vai ter animalçao de 3 s 
+o nome da animaçao é anime
+ele vai contar quantas vezes ele vai repetir a animaçao
+ele vai mexer pra la e pra ca  */

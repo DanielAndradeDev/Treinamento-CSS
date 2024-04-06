@@ -1,0 +1,46 @@
+/* tudo que tiver * vai ser aplicado para todos */
+*{
+    box-sizing: border-box;
+}
+.flex-container{
+    background-color: rgb(170, 18, 18);
+    resize: horizontal;
+    overflow: hidden;
+    display: flex;
+    margin: 1em;
+}
+.intem{
+    margin:1em ;
+    padding:0.5em ;
+    width:110px ;
+    min-width:0 ;
+    background-color:black ;
+    color:white ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 13px;
+}
+.inicial{
+    flex:inicial;
+
+}
+.auto:auto{
+    flex:auto;
+}
+.none{
+    flex: none;
+}
+.auto{
+    flex:auto
+}
+.none{
+    flex: none;
+}
+.four{
+    flex: 4;
+}
+.two{
+    flex: 2;
+}
+.one{
+    flex: 1 ;
+}

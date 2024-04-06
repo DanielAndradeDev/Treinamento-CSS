@@ -1,0 +1,16 @@
+#liçao{
+    width: 10;
+    height: 20;
+    background-color: rgb(0, 255, 4);
+    offset: path("M90 90 L 300 200 L 200 Z ")auto;
+    animation: move 3s linear infinite;
+
+}
+@keyframes move{
+    from{
+        offset-distance: 0%;
+    }
+to{
+    offset-distance: 100% ;
+}
+}

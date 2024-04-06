@@ -1,0 +1,25 @@
+p{
+    /* no animatio duration eu vou definir o tempo de animaçao do P */
+    animation-duration: 4s;
+    animation-name: slide;
+}
+/* quando falamos de animaçao temos que usar o kayframe para fazer os frames da animaçao  */
+@keyframes slide{
+    from{
+        margin-left: 100%;
+        width: 300%;
+    }
+    75%{
+        font-size:300% ;
+        margin-left:25% ;
+        width:150% ;
+    }
+    to{
+        margin-left: 0%;
+        width: 100%;
+    }
+
+    
+}
+
+
